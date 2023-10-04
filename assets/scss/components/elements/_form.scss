@@ -1,0 +1,10 @@
+.search-form-group {
+    position: relative;
+
+    .search-icon {
+        position: absolute;
+        left: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

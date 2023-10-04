@@ -1,0 +1,15 @@
+@import './variables';
+
+/* libs */
+@import './libs/bootstrap';
+
+/* css properties */
+@import './properties/border-radius';
+
+/* icons */
+@import './components/icons/tabler-icon-svg';
+
+/* components */
+@import './components/elements/card';
+@import './components/elements/form';
+@import './components/elements/table';

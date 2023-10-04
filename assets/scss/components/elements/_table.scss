@@ -1,0 +1,22 @@
+.table {
+    --#{$prefix}padding-y: 1.5rem;
+    --#{$prefix}border-width: 1px;
+
+    &.table-outlined,
+    &.table-outlined th {
+        border: var(--#{$prefix}border-width) solid var(--#{$prefix}table-border-color);
+    }
+
+    &.table-outlined tr td:not(:last-child){
+        border-right: var(--#{$prefix}border-width) solid var(--#{$prefix}table-border-color);
+    }
+
+    td, th {
+        font-weight: normal;
+    }
+
+    td {
+        padding-top: var(--#{$prefix}padding-y);
+        padding-bottom: var(--#{$prefix}padding-y);
+    }
+}

@@ -1,0 +1,10 @@
+.tabler-icon {
+    --#{$prefix}default-stroke-width: 1.5px;
+    --#{$prefix}default-dimension: 18px;
+
+    svg {
+        stroke-width: var(--#{$prefix}default-stroke-width);
+        width: var(--#{$prefix}default-dimension);
+        height: var(--#{$prefix}default-dimension);
+    }
+}
